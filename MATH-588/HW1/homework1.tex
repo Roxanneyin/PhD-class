@@ -1,0 +1,176 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=Python,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{indentfirst}
+\usepackage{bm}    %for textbf
+\usepackage{amsmath}
+\usepackage{amsfonts}   %for mathbb
+\allowdisplaybreaks[4]  %from {amsmath}
+\newcommand{\independent}{\rotatebox[origin=c]{90}{$\models$}}  %from {graphicx}
+\usepackage{geometry}
+\geometry{letterpaper, scale=0.8}  %from {geometry}
+\author{Yuan Yin A20447290}
+\title{MATH 588 Homework 1}
+\begin{document}\large
+\maketitle
+\begin{spacing}{1.2}  %from {setspace}
+\section*{Problem 1}
+The first case is for 2014 General Motors' recall event. General Motors is caught in the grip of a strategic failure that materialized from a seemingly ``low probability'' event. A recall of 3.1 million vehicles is expected to result in a charge of \$300 million.
+
+The second case is for 2012 BoA event. BoA decided it would begin to charge customers \$5 per month in 2012 just to gain access to their funds via their debit cards. And they thought it would easily overcome some initial angry customers and it proved to be a mistake. They got a huge loss of customers.
+
+The third case is for Wells Fargo. Wells Fargo paid \$185 million in penalties by Consumer Financial Protection Bureau since it began operations in 2011- for inappropriate sales practices. Millions of accounts were set up without customer consent, in many instances generating overdraft charges and other fees.
+\section*{Problem 2}
+I download Apple company balance sheet from \underline{https://www.nasdaq.com} from 2016-2019. We only focus on 2018 and 2019 years. (Notice that unit is in USD thousands here!)
+
+From the sheet we can easily see that Total Assets is \$338,516,000 in 2019 and \$265,725,000 in 2018. And for Total Liabilities\&Equity is \$338,516,000 in 2019 and \$265,725,000 in 2018, which indicates that the balance sheet formula holds for these two years.
+
+Now analyzing the whole balance sheet: Notice that cash and cash equivalents grows almost twice from 2018 to 2019. It shows that Apple has a strong liquidity of assets and it has a increasing sense. The increasing of short-term investments also implies that the liquidity of Apple.
+
+Then notice that for net receivables is also very large amount, and it almost the same for these two years. It means they will get paid in the future but also it means there is defult risk.
+
+For inventory part, it's far less if comparing with the other terms. It's can be treated as a good sign since inventory also has risk for decreasing value.
+
+For total assets, it decreases a little bit but the percentage of current assets increases a lot. This may indicate that some long-term assests change into current assets and shows the increasing of liquidity.
+
+Then for Liabilities, both accounts payable and short-term debt decreases a lot which means for these two years the pressure for liabilities releases. Long-term liabilities didn't change too much which makes the total liabilities decreases apparently.
+
+For equity part, it's positive meaning that it's solvent. But from 2018 to 2019 total equity has a significant decreasing and the ratio of equity over asset decreases around 2\%. On the other hand, it means that the liability over asset is relative high which indicates the risk of high leverage.
+
+In conclusion, the structure for Apple company is roughly stable impling that it's a mature company with steady growing process. Since the total assets is growing and the high percentage of current assets provides the ability to solve a temporary problem.
+
+\section*{Problem 3}
+
+Since $L_{t+1} = -(f(t+1,\bm{z}_t + \bm{X}_{t+1}) - f(t,\bm{z}_t))$, where $\bm{z}_t$ is known at time $t+1$, $\bm{X}_{t+1} := \bm{Z}_{t+1} - \bm{Z}_t.$
+
+By second order Taylor approximation
+\begin{equation}
+\begin{aligned}
+f(t+1,\bm{z}_t + \bm{X}_{t+1}) &\approx f(t,\bm{z}_t) + f_t(t,\bm{z}_t) \cdot \Delta t + \sum_{j=1}^d f_{z_j}(t,\bm{z}_t) \cdot \Delta Z_{t+1}^j + \frac{1}{2} f_{tt}(t,\bm{z}_t) \cdot (\Delta t)^2 \\
+&+ \frac{1}{2} \sum_{j=1}^d f_{tz_j}(t,\bm{z}_t) \cdot \Delta t \cdot \Delta Z_{t+1}^j + \frac{1}{2} \sum_{j=1}^d f_{z_jt}(t,\bm{z}_t) \cdot \Delta t \cdot \Delta Z_{t+1}^j \\
+&+ \frac{1}{2} \sum_{i=1}^d \sum_{j=1}^d f_{z_iz_j}(t,\bm{z}_t) \cdot \Delta Z_{t+1}^i \cdot \Delta Z_{t+1}^j
+\end{aligned}
+\end{equation}
+
+Notice here we don't assume $f$ smooth so we don't assume $f_{tz_j}(t,\bm{z}_t)$ and $f_{z_jt}(t,\bm{z}_t)$ are equal (more general). Besides, notice $\Delta Z_{t+1}^j = X_{t+1}^j$ and $\Delta t = 1$. Therefore,
+
+\begin{equation}
+\begin{aligned}
+L_{t+1} \approx L_{t+1}^{\Delta} &= -[f_t(t,\bm{z}_t)+ \sum_{j=1}^d f_{z_j}(t,\bm{z}_t) \cdot X_{t+1}^j + \frac{1}{2} f_{tt}(t,\bm{z}_t) \\
+&+ \frac{1}{2} \sum_{j=1}^d f_{tz_j}(t,\bm{z}_t) \cdot X_{t+1}^j + \frac{1}{2} \sum_{j=1}^d f_{z_jt}(t,\bm{z}_t) \cdot X_{t+1}^j \\
+&+ \frac{1}{2} \sum_{i=1}^d \sum_{j=1}^d f_{z_iz_j}(t,\bm{z}_t) \cdot X_{t+1}^i \cdot X_{t+1}^j]
+\end{aligned}
+\end{equation}
+
+Define:
+
+\begin{equation}
+\begin{aligned}
+c_t &:= f_t(t,\bm{z}_t) + \frac{1}{2} f_{tt}(t,\bm{z}_t) \\
+b_{t,j} &:= f_{z_j}(t,\bm{z}_t) + \frac{1}{2} f_{tz_j}(t,\bm{z}_t) + \frac{1}{2} f_{z_jt}(t,\bm{z}_t) \\
+A_{t,i,j} &:= \frac{1}{2} f_{z_iz_j}(t,\bm{z}_t) \\
+\end{aligned}
+\end{equation}
+
+Therefore,
+
+\begin{equation}
+L_{t+1} \approx -(c_t + \bm{b_t'X}_{t+1} + \bm{X}_{t+1}'A\bm{X}_{t+1})
+\end{equation}
+
+Hence,
+
+\begin{equation}
+\mathbb{E}[L_{t+1}^{\Delta} | \mathcal{F}_t] = -c_t - \bm{b}_t' \mathbb{E}[\bm{X}_{t+1} | \mathcal{F}_t] - tr(A \Sigma) - \mathbb{E}[\bm{X}_{t+1}' | \mathcal{F}_t] A \mathbb{E}[\bm{X}_{t+1} | \mathcal{F}_t]
+\end{equation}
+
+$\bm{proof:}$ Need to show that if $E(\bm{X}) = \bm{\mu}$ and $Var(\bm{X}) = \Sigma$, then $E(\bm{X}'A\bm{X}) = tr(A\Sigma) + \bm{\mu}'A\bm{\mu}$.
+
+We can write
+\begin{equation}
+\begin{aligned}
+\bm{X}'A\bm{X} &= (\bm{X} - \bm{\mu})'A\bm{X} + \bm{\mu}'A\bm{X} \\
+&= (\bm{X} - \bm{\mu})'A(\bm{X} - \bm{\mu}) + \bm{\mu}'A\bm{X} + (\bm{X} - \bm{\mu})'A\bm{\mu}.
+\end{aligned}
+\end{equation}
+
+Taking expectation on both sides, the last term vanishes and we get:
+
+$$
+E(\bm{X}'A\bm{X}) = E[(\bm{X} - \bm{\mu})'A(\bm{X} - \bm{\mu})] + \bm{\mu}'A\bm{\mu}.
+$$
+
+It suffices to show that the expectation on the right-hand side is the trace of $A\Sigma$. Let $Y_j := X_j - \mu_j$, so that $\bm{Y} = \bm{X} - \bm{\mu}$ and therefore:
+
+\begin{equation}
+\begin{aligned}
+E[(\bm{X} - \bm{\mu})'A(\bm{X} - \bm{\mu})] &= E(\bm{Y}'A\bm{Y}) \\
+&=\sum_{i=1}^n \sum_{j=1}^n E(Y_iA_{i,j}Y_j) = \sum_{i=1}^n \sum_{j=1}^n A_{i,j}[Var(\bm{Y})]_{i,j} \\
+&= \sum_{i=1}^n \sum_{j=1}^n A_{i,j}[Var(\bm{X})]_{i,j} = \sum_{i=1}^n \sum_{j=1}^n A_{i,j} \Sigma_{i,j} \\
+&= \sum_{i=1}^n [A\Sigma]_{i,i} = tr(A\Sigma).
+\end{aligned}
+\end{equation}
+
+Thus finished the proof.
+
+Comparing with expectation of linear approximation, Second order approximation is more precise, but also costs more to get the result.
+
+$\bm{Bonus:}$
+
+For variance part, I searched the reference and get the result that:
+
+\begin{equation}
+Var[L_{t+1}^{\Delta} | \mathcal{F}_t] = \bm{b}_t' \cdot Var[\bm{X}_{t+1} | \mathcal{F}_t] \cdot \bm{b}_t + Var[\bm{X}_{t+1}'A\bm{X}_{t+1} | \mathcal{F}_t]
+\end{equation}
+
+where for the third term, if $E(\bm{X}) = \bm{\mu}$ and $Var(\bm{X}) = \Sigma$
+\begin{equation}
+\begin{aligned}
+Var[\bm{X}'A\bm{X}] &= Var[(\bm{X} - \bm{\mu})'A(\bm{X} - \bm{\mu})] + Var[\bm{\mu}'A\bm{X}] + Var[(\bm{X} - \bm{\mu})'A\bm{\mu}] \\
+&= (\mu_4 - 3\mu_2^2) \sum_{i=1}^n A_{i,i}^2 + (\mu_2^2 - 1)(tr(A))^2 + 2\mu_2^2tr(A^2) \\
+&+ \bm{\mu}'A\Sigma A'\bm{\mu} + \bm{\mu}'A' \Sigma A\bm{\mu}.
+\end{aligned}
+\end{equation}
+
+Here, $\mu_2 := E(X_1^2)$ and $\mu_4 = E(X_1^4)$.
+
+\section*{Problem 4}
+1. For Analytical Method: The advantages are that there is explicit distribution function for $\bm{X}_{t+1}$, and for Multi-Gaussian has linearity, any linear transformation still holds Gaussian, which is very easy to compute with.
+
+But the disadvantage is that linearization may not always offer a good approximation of the relationship between the true loss distribution and risk-factor changes. Also, the assumption of the distribution from us is unlikely to be realistic.
+
+2. For Historical Simulations: The advandates are that it's easy to implement and reduces the risk-measure estimation problem to a one-dimensional problem; no statistical estimation of the multivariate distribution of $\bm{X}$ is necessary, and no assumption about the dependence structure of risk-factor changes are made.
+
+However, this approach is highly dependent on our ability to collect sufficient quantities of relevant, synchronized data for all risk factors. These problems will tend to reduce the effective value of n and mean that empirical estimates of VaR and expected shortfall have very poor accuracy. Besides, this method is an unconditional method but truth is conditional approach is generally considered to be the more relevant for day-to-day market risk management.
+
+3. Monte Carlo Simulations: The advantages are that we can decide to choose the number of replications ourselves and we can obtain more accuracy than the case of historical simulation. Also we can know the computation time and usually it's very fast.
+
+The disadvantage is that dimension of data will increase and the method doesn't solve the problem of finding a multivariate model for $\bm{X}_{t+1}$ and any results that are obtained will only be as good as the model that is used. In the market risk context a dynamic model seems desirable.
+
+\end{spacing}
+\end{document}
