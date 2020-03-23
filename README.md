@@ -5,3 +5,11 @@ Hi everyone, I'm now starting my PhD study and I will post my classes homeworks.
 ## MATH 577
 
 Computation Mathematics
+
+## MATH 584
+
+Algorithm Trading
+
+## MATH 588
+
+Risk Management
