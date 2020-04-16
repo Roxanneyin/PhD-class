@@ -1,192 +1,198 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6800 64-bit) (preloaded format=xelatex 2018.9.22)  12 FEB 2020 17:34
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7300 64-bit) (preloaded format=xelatex 2020.2.29)  29 FEB 2020 16:06
 entering extended mode
 **C:/Users/Roxanne/Documents/GitHub/PhD-class/MATH-584/Hwk1/Hwk1/Homework1.tex
 (C:/Users/Roxanne/Documents/GitHub/PhD-class/MATH-584/Hwk1/Hwk1/Homework1.tex
-LaTeX2e <2018-04-01> patch level 5
-(D:\APPLICATIONS\Miktex\tex\latex\base\article.cls
-Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(D:\APPLICATIONS\Miktex\tex\latex\base\size11.clo
-File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+LaTeX2e <2020-02-02> patch level 4
+L3 programming layer <2020-02-25>
+(D:\APPLICATIONS\Miktex\tex/latex/base\article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(D:\APPLICATIONS\Miktex\tex/latex/base\size11.clo
+File: size11.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
-\c@part=\count80
-\c@section=\count81
-\c@subsection=\count82
-\c@subsubsection=\count83
-\c@paragraph=\count84
-\c@subparagraph=\count85
-\c@figure=\count86
-\c@table=\count87
-\abovecaptionskip=\skip41
-\belowcaptionskip=\skip42
-\bibindent=\dimen102
+\c@part=\count163
+\c@section=\count164
+\c@subsection=\count165
+\c@subsubsection=\count166
+\c@paragraph=\count167
+\c@subparagraph=\count168
+\c@figure=\count169
+\c@table=\count170
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
 )
-(C:\Users\Roxanne\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
-(D:\APPLICATIONS\Miktex\tex\latex\graphics\keyval.sty
+(D:\APPLICATIONS\Miktex\tex/latex/listings\listings.sty
+(D:\APPLICATIONS\Miktex\tex/latex/graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-\lst@mode=\count88
-\lst@gtempboxa=\box26
+\lst@mode=\count171
+\lst@gtempboxa=\box45
 \lst@token=\toks15
-\lst@length=\count89
-\lst@currlwidth=\dimen103
-\lst@column=\count90
-\lst@pos=\count91
-\lst@lostspace=\dimen104
-\lst@width=\dimen105
-\lst@newlines=\count92
-\lst@lineno=\count93
-\lst@maxwidth=\dimen106
+\lst@length=\count172
+\lst@currlwidth=\dimen135
+\lst@column=\count173
+\lst@pos=\count174
+\lst@lostspace=\dimen136
+\lst@width=\dimen137
+\lst@newlines=\count175
+\lst@lineno=\count176
+\lst@maxwidth=\dimen138
 
-(C:\Users\Roxanne\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
-File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
-\c@lstnumber=\count94
-\lst@skipnumbers=\count95
-\lst@framebox=\box27
+(D:\APPLICATIONS\Miktex\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
+\c@lstnumber=\count177
+\lst@skipnumbers=\count178
+\lst@framebox=\box46
 )
-(C:\Users\Roxanne\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg
-File: listings.cfg 2018/09/02 1.7 listings configuration
+(D:\APPLICATIONS\Miktex\tex/latex/listings\listings.cfg
+File: listings.cfg 2019/09/10 1.8c listings configuration
 ))
-Package: listings 2018/09/02 1.7 (Carsten Heinz)
+Package: listings 2019/09/10 1.8c (Carsten Heinz)
 
-(D:\APPLICATIONS\Miktex\tex\latex\graphics\color.sty
-Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+(D:\APPLICATIONS\Miktex\tex/latex/graphics\color.sty
+Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
 
-(D:\APPLICATIONS\Miktex\tex\latex\graphics-cfg\color.cfg
+(D:\APPLICATIONS\Miktex\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: xetex.def on input line 147.
 
-(D:\APPLICATIONS\Miktex\tex\latex\graphics-def\xetex.def
+(D:\APPLICATIONS\Miktex\tex/latex/graphics-def\xetex.def
 File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
 ))
-(C:\Users\Roxanne\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
-File: lstlang1.sty 2018/09/02 1.7 listings language file
+(D:\APPLICATIONS\Miktex\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2019/09/10 1.8c listings language file
 )
-(D:\APPLICATIONS\Miktex\tex\latex\setspace\setspace.sty
+(D:\APPLICATIONS\Miktex\tex/latex/setspace\setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(D:\APPLICATIONS\Miktex\tex\latex\graphics\graphicx.sty
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+(D:\APPLICATIONS\Miktex\tex/latex/graphics\graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(D:\APPLICATIONS\Miktex\tex\latex\graphics\graphics.sty
-Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+(D:\APPLICATIONS\Miktex\tex/latex/graphics\graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
 
-(D:\APPLICATIONS\Miktex\tex\latex\graphics\trig.sty
+(D:\APPLICATIONS\Miktex\tex/latex/graphics\trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(D:\APPLICATIONS\Miktex\tex\latex\graphics-cfg\graphics.cfg
+(D:\APPLICATIONS\Miktex\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: xetex.def on input line 99.
+Package graphics Info: Driver file: xetex.def on input line 105.
 )
-\Gin@req@height=\dimen107
-\Gin@req@width=\dimen108
+\Gin@req@height=\dimen139
+\Gin@req@width=\dimen140
 )
-(D:\APPLICATIONS\Miktex\tex\latex\tools\indentfirst.sty
+(D:\APPLICATIONS\Miktex\tex/latex/tools\indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-(D:\APPLICATIONS\Miktex\tex\latex\tools\bm.sty
-Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
+(D:\APPLICATIONS\Miktex\tex/latex/tools\bm.sty
+Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup4
 \symboldletters=\mathgroup5
 \symboldsymbols=\mathgroup6
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
-LaTeX Info: Redefining \bm on input line 207.
+LaTeX Info: Redefining \bm on input line 209.
 )
-(D:\APPLICATIONS\Miktex\tex\latex\amsmath\amsmath.sty
-Package: amsmath 2017/09/02 v2.17a AMS math features
-\@mathmargin=\skip43
+(D:\APPLICATIONS\Miktex\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip49
 
 For additional information on amsmath, use the `?' option.
-(D:\APPLICATIONS\Miktex\tex\latex\amsmath\amstext.sty
+(D:\APPLICATIONS\Miktex\tex/latex/amsmath\amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(D:\APPLICATIONS\Miktex\tex\latex\amsmath\amsgen.sty
+(D:\APPLICATIONS\Miktex\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks16
-\ex@=\dimen109
+\ex@=\dimen141
 ))
-(D:\APPLICATIONS\Miktex\tex\latex\amsmath\amsbsy.sty
+(D:\APPLICATIONS\Miktex\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 LaTeX Info: Redefining \boldsymbol on input line 28.
-\pmbraise@=\dimen110
+\pmbraise@=\dimen142
 )
-(D:\APPLICATIONS\Miktex\tex\latex\amsmath\amsopn.sty
+(D:\APPLICATIONS\Miktex\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count96
-LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count97
-\leftroot@=\count98
-LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count99
-\DOTSCASE@=\count100
-LaTeX Info: Redefining \ldots on input line 472.
-LaTeX Info: Redefining \dots on input line 475.
-LaTeX Info: Redefining \cdots on input line 596.
-\Mathstrutbox@=\box28
-\strutbox@=\box29
-\big@size=\dimen111
-LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count101
-\c@MaxMatrixCols=\count102
-\dotsspace@=\muskip10
-\c@parentequation=\count103
-\dspbrk@lvl=\count104
+\inf@bad=\count179
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count180
+\leftroot@=\count181
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count182
+\DOTSCASE@=\count183
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box47
+\strutbox@=\box48
+\big@size=\dimen143
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count184
+\c@MaxMatrixCols=\count185
+\dotsspace@=\muskip16
+\c@parentequation=\count186
+\dspbrk@lvl=\count187
 \tag@help=\toks17
-\row@=\count105
-\column@=\count106
-\maxfields@=\count107
+\row@=\count188
+\column@=\count189
+\maxfields@=\count190
 \andhelp@=\toks18
-\eqnshift@=\dimen112
-\alignsep@=\dimen113
-\tagshift@=\dimen114
-\tagwidth@=\dimen115
-\totwidth@=\dimen116
-\lineht@=\dimen117
+\eqnshift@=\dimen144
+\alignsep@=\dimen145
+\tagshift@=\dimen146
+\tagwidth@=\dimen147
+\totwidth@=\dimen148
+\lineht@=\dimen149
 \@envbody=\toks19
-\multlinegap=\skip44
-\multlinetaggap=\skip45
+\multlinegap=\skip50
+\multlinetaggap=\skip51
 \mathdisplay@stack=\toks20
-LaTeX Info: Redefining \[ on input line 2817.
-LaTeX Info: Redefining \] on input line 2818.
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
 )
-(D:\APPLICATIONS\Miktex\tex\latex\amsfonts\amsfonts.sty
+(D:\APPLICATIONS\Miktex\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup7
 \symAMSb=\mathgroup8
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-(D:\APPLICATIONS\Miktex\tex\latex\geometry\geometry.sty
-Package: geometry 2018/04/16 v5.8 Page Geometry
+(D:\APPLICATIONS\Miktex\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(D:\APPLICATIONS\Miktex\tex\generic\oberdiek\ifpdf.sty
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
-)
-(D:\APPLICATIONS\Miktex\tex\generic\oberdiek\ifvtex.sty
-Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
-Package ifvtex Info: VTeX not detected.
-)
-(D:\APPLICATIONS\Miktex\tex\generic\ifxetex\ifxetex.sty
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-)
-\Gm@cnth=\count108
-\Gm@cntv=\count109
-\c@Gm@tempcnt=\count110
-\Gm@bindingoffset=\dimen118
-\Gm@wd@mp=\dimen119
-\Gm@odd@mp=\dimen120
-\Gm@even@mp=\dimen121
-\Gm@layoutwidth=\dimen122
-\Gm@layoutheight=\dimen123
-\Gm@layouthoffset=\dimen124
-\Gm@layoutvoffset=\dimen125
+(C:\Users\Roxanne\AppData\Roaming\MiKTeX\2.9\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Users\Roxanne\AppData\Roaming\MiKTeX\2.9\tex/generic/iftex\iftex.sty
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+))
+\Gm@cnth=\count191
+\Gm@cntv=\count192
+\c@Gm@tempcnt=\count193
+\Gm@bindingoffset=\dimen150
+\Gm@wd@mp=\dimen151
+\Gm@odd@mp=\dimen152
+\Gm@even@mp=\dimen153
+\Gm@layoutwidth=\dimen154
+\Gm@layoutheight=\dimen155
+\Gm@layouthoffset=\dimen156
+\Gm@layoutvoffset=\dimen157
 \Gm@dimlist=\toks21
 
-(D:\APPLICATIONS\Miktex\tex\xelatex\xetexconfig\geometry.cfg)) (Homework1.aux
+(D:\APPLICATIONS\Miktex\tex/xelatex/xetexconfig\geometry.cfg))
+(C:\Users\Roxanne\AppData\Roaming\MiKTeX\2.9\tex/latex/l3backend\l3backend-xdvi
+pdfmx.def
+File: l3backend-xdvipdfmx.def 2020-02-23 L3 backend support: xdvipdfmx
+\g__graphics_track_int=\count194
+\l__pdf_internal_box=\box49
+\g__pdf_backend_object_int=\count195
+\g__pdf_backend_annotation_int=\count196
+) (Homework1.aux
 
 LaTeX Warning: Label `fig:label' multiply defined.
 
@@ -201,11 +207,18 @@ LaTeX Warning: Label `fig:label' multiply defined.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
 LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
 LaTeX Font Info:    ... okay on input line 39.
 LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
 LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
+9.
+ (D:\APPLICATIONS\Miktex\tex/latex/base\ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
 LaTeX Font Info:    ... okay on input line 39.
 LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 39.
 LaTeX Font Info:    ... okay on input line 39.
@@ -213,7 +226,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
 LaTeX Font Info:    ... okay on input line 39.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
 LaTeX Font Info:    ... okay on input line 39.
-\c@lstlisting=\count111
+\c@lstlisting=\count197
 
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -248,13 +261,15 @@ LaTeX Font Info:    ... okay on input line 39.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 40.
-(D:\APPLICATIONS\Miktex\tex\latex\amsfonts\umsa.fd
+LaTeX Font Info:    Trying to load font information for U+msa on input line 40.
+
+(D:\APPLICATIONS\Miktex\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 40.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 40.
 
-(D:\APPLICATIONS\Miktex\tex\latex\amsfonts\umsb.fd
+
+(D:\APPLICATIONS\Miktex\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 File: 1(c).png Graphic file (type bmp)
@@ -269,14 +284,14 @@ is $\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 0257049346650433$
 [1
 
 ]
-File: 1(d).png Graphic file (type bmp)
-<1(d).png>
+File: 1(d)new.png Graphic file (type bmp)
+<1(d)new.png>
 
-Overfull \hbox (41.70901pt too wide) in paragraph at lines 71--72
+Overfull \hbox (35.83408pt too wide) in paragraph at lines 71--72
 []\TU/lmr/m/n/12 The variance of the portfolio is $\OT1/cmr/m/n/12 0\OML/cmm/m/
-it/12 :\OT1/cmr/m/n/12 041372046946460475$\TU/lmr/m/n/12 . And the best case me
-an is $\OT1/cmr/m/n/12 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 5721439844938762$\TU/
-lmr/m/n/12 .
+it/12 :\OT1/cmr/m/n/12 03453166570826342$\TU/lmr/m/n/12 . And the best case mea
+n is $\OT1/cmr/m/n/12 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 5399266134739134$\TU/l
+mr/m/n/12 .
  []
 
 File: 1(e).png Graphic file (type bmp)
@@ -290,12 +305,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3197 strings out of 427798
- 42009 string characters out of 3152742
- 288957 words of memory out of 3000000
- 7156 multiletter control sequences out of 15000+200000
- 11102 words of font info for 47 fonts, out of 3000000 for 9000
- 1328 hyphenation exceptions out of 8191
- 27i,6n,40p,555b,248s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 3473 strings out of 414570
+ 48048 string characters out of 2910960
+ 466358 words of memory out of 3000000
+ 20566 multiletter control sequences out of 15000+200000
+ 539800 words of font info for 57 fonts, out of 3000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 30i,6n,40p,555b,251s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on Homework1.pdf (4 pages).

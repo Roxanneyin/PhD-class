@@ -1,0 +1,324 @@
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7300 64-bit) (preloaded format=xelatex 2020.2.29)  14 APR 2020 16:57
+entering extended mode
+**"C:/Users/Roxanne/Documents/GitHub/PhD-class/MATH-588/HW3/Homework 3.tex"
+("C:/Users/Roxanne/Documents/GitHub/PhD-class/MATH-588/HW3/Homework 3.tex"
+LaTeX2e <2020-02-02> patch level 4
+L3 programming layer <2020-02-25>
+(D:\APPLICATIONS\Miktex\tex/latex/base\article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(D:\APPLICATIONS\Miktex\tex/latex/base\size11.clo
+File: size11.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count163
+\c@section=\count164
+\c@subsection=\count165
+\c@subsubsection=\count166
+\c@paragraph=\count167
+\c@subparagraph=\count168
+\c@figure=\count169
+\c@table=\count170
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+(D:\APPLICATIONS\Miktex\tex/latex/listings\listings.sty
+(D:\APPLICATIONS\Miktex\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+\lst@mode=\count171
+\lst@gtempboxa=\box45
+\lst@token=\toks15
+\lst@length=\count172
+\lst@currlwidth=\dimen135
+\lst@column=\count173
+\lst@pos=\count174
+\lst@lostspace=\dimen136
+\lst@width=\dimen137
+\lst@newlines=\count175
+\lst@lineno=\count176
+\lst@maxwidth=\dimen138
+
+(D:\APPLICATIONS\Miktex\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
+\c@lstnumber=\count177
+\lst@skipnumbers=\count178
+\lst@framebox=\box46
+)
+(D:\APPLICATIONS\Miktex\tex/latex/listings\listings.cfg
+File: listings.cfg 2019/09/10 1.8c listings configuration
+))
+Package: listings 2019/09/10 1.8c (Carsten Heinz)
+
+(C:\Users\Roxanne\AppData\Roaming\MiKTeX\2.9\tex/latex/extarrows\extarrows.sty
+Package: extarrows 2020/03/12 v1.2.0 Some extensible arrows
+
+(D:\APPLICATIONS\Miktex\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(D:\APPLICATIONS\Miktex\tex/latex/amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(D:\APPLICATIONS\Miktex\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen139
+))
+(D:\APPLICATIONS\Miktex\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen140
+)
+(D:\APPLICATIONS\Miktex\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count179
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count180
+\leftroot@=\count181
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count182
+\DOTSCASE@=\count183
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box47
+\strutbox@=\box48
+\big@size=\dimen141
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count184
+\c@MaxMatrixCols=\count185
+\dotsspace@=\muskip16
+\c@parentequation=\count186
+\dspbrk@lvl=\count187
+\tag@help=\toks17
+\row@=\count188
+\column@=\count189
+\maxfields@=\count190
+\andhelp@=\toks18
+\eqnshift@=\dimen142
+\alignsep@=\dimen143
+\tagshift@=\dimen144
+\tagwidth@=\dimen145
+\totwidth@=\dimen146
+\lineht@=\dimen147
+\@envbody=\toks19
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+))
+(D:\APPLICATIONS\Miktex\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(D:\APPLICATIONS\Miktex\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(D:\APPLICATIONS\Miktex\tex/latex/graphics\color.sty
+Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
+
+(D:\APPLICATIONS\Miktex\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: xetex.def on input line 147.
+
+(D:\APPLICATIONS\Miktex\tex/latex/graphics-def\xetex.def
+File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
+))
+(D:\APPLICATIONS\Miktex\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2019/09/10 1.8c listings language file
+)
+(D:\APPLICATIONS\Miktex\tex/latex/setspace\setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(D:\APPLICATIONS\Miktex\tex/latex/graphics\graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(D:\APPLICATIONS\Miktex\tex/latex/graphics\graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(D:\APPLICATIONS\Miktex\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(D:\APPLICATIONS\Miktex\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 105.
+)
+\Gin@req@height=\dimen148
+\Gin@req@width=\dimen149
+)
+(D:\APPLICATIONS\Miktex\tex/latex/tools\indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(D:\APPLICATIONS\Miktex\tex/latex/tools\bm.sty
+Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 209.
+)
+(D:\APPLICATIONS\Miktex\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\Roxanne\AppData\Roaming\MiKTeX\2.9\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Users\Roxanne\AppData\Roaming\MiKTeX\2.9\tex/generic/iftex\iftex.sty
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+))
+\Gm@cnth=\count191
+\Gm@cntv=\count192
+\c@Gm@tempcnt=\count193
+\Gm@bindingoffset=\dimen150
+\Gm@wd@mp=\dimen151
+\Gm@odd@mp=\dimen152
+\Gm@even@mp=\dimen153
+\Gm@layoutwidth=\dimen154
+\Gm@layoutheight=\dimen155
+\Gm@layouthoffset=\dimen156
+\Gm@layoutvoffset=\dimen157
+\Gm@dimlist=\toks21
+
+(D:\APPLICATIONS\Miktex\tex/xelatex/xetexconfig\geometry.cfg))
+(C:\Users\Roxanne\AppData\Roaming\MiKTeX\2.9\tex/latex/l3backend\l3backend-xdvi
+pdfmx.def
+File: l3backend-xdvipdfmx.def 2020-02-23 L3 backend support: xdvipdfmx
+\g__graphics_track_int=\count194
+\l__pdf_internal_box=\box49
+\g__pdf_backend_object_int=\count195
+\g__pdf_backend_annotation_int=\count196
+) ("Homework 3.aux"
+
+LaTeX Warning: Label `2' multiply defined.
+
+
+LaTeX Warning: Label `2' multiply defined.
+
+
+LaTeX Warning: Label `2' multiply defined.
+
+)
+\openout1 = `"Homework 3.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 4
+1.
+ (D:\APPLICATIONS\Miktex\tex/latex/base\ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+\c@lstlisting=\count197
+
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(61.42856pt, 491.43787pt, 61.42857pt)
+* v-part:(T,H,B)=(63.59662pt, 635.97841pt, 95.39496pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=491.43787pt
+* \textheight=635.97841pt
+* \oddsidemargin=-10.84143pt
+* \evensidemargin=-10.84143pt
+* \topmargin=-45.67337pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=59.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 42.
+
+(D:\APPLICATIONS\Miktex\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 42.
+
+
+(D:\APPLICATIONS\Miktex\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+File: problem1a_Ent.png Graphic file (type bmp)
+<problem1a_Ent.png>
+ [1
+
+]
+File: problem1b_Ent.png Graphic file (type bmp)
+<problem1b_Ent.png>
+ [2]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (17.7346pt too wide) in paragraph at lines 177--178
+[]\TU/lmr/m/n/12 where only “$\OML/cmm/m/it/12 a$\TU/lmr/m/n/12 ” is unknown. T
+his is because if we assume $\U/msb/m/n/12 P\OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 (
+\OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 50\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 ^^@\O
+T1/cmr/m/n/12 50)\OMS/cmsy/m/n/12 g \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 a$\TU/lm
+r/m/n/12 , then $\U/msb/m/n/12 P\OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 (\OMS/cmsy/m/
+n/12 ^^@\OT1/cmr/m/n/12 50\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/1
+2 50) \OMS/cmsy/m/n/12 [
+ []
+
+[3]
+File: problem1c.png Graphic file (type bmp)
+<problem1c.png>
+ [4] [5] [6]
+File: problem4.png Graphic file (type bmp)
+<problem4.png>
+File: problem4.2.png Graphic file (type bmp)
+<problem4.2.png>
+ [7] [8] [9] [10] ("Homework 3.aux")
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 4128 strings out of 414570
+ 54978 string characters out of 2910960
+ 530333 words of memory out of 3000000
+ 21210 multiletter control sequences out of 15000+200000
+ 542285 words of font info for 68 fonts, out of 3000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 38i,12n,40p,468b,1730s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on Homework 3.pdf (10 pages).

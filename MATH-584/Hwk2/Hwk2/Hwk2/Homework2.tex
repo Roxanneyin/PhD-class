@@ -1,0 +1,73 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=Python,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{indentfirst}
+\usepackage{bm}    %for textbf
+\usepackage{amsmath}
+\usepackage{amsfonts}   %for mathbb
+\allowdisplaybreaks[4]  %from {amsmath}
+\newcommand{\independent}{\rotatebox[origin=c]{90}{$\models$}}  %from {graphicx}
+\usepackage{geometry}
+\geometry{letterpaper, scale=0.8}  %from {geometry}
+\author{Yuan Yin A20447290}
+\title{MATH 584 Homework 2}
+\begin{document}\large
+\maketitle
+\begin{spacing}{1.2}  %from {setspace}
+\section*{Problem 1}
+\subsection*{(a)}
+For this question, we have only the first asset and the riskless one. For each window, I firstly compute the estimation of parameters in ``Calibrition window'', which is the $N=250$ part. And then I find my optimal strategy according to the formula we got for Example 4 on class notes. Notice here the variance for riskless asset and covariance between risky asset and riskless are both zero.
+
+Then I compute the PnL using the ``Trading window'', which is the $T=100$ part. And I save the result in file ``PnL\_in\_a.csv''. And I got the annualized mean: $1.740221402373899$, annualized variance: $0.06943642447261976$, and the Sharpe Ratio is: $6.60405727172277$.
+
+If we want to compute the other asset with riskless, there is a variable in the code called: ``num\_asset'' which takes value $0,1,\ldots,63$ to represent different asset.
+
+\subsection*{(b)}
+For this question, I firstly substract the Volume data and compute our factor which is ``Exponential-Weighted-Average-Return''. And then I do linear regression between the factor and daily return to get coefficient for $a$ and $c$.
+
+Then similar to the first problem, I firstly compute the estimator in each ``Calibrition window'' and then do DPP in each ``Trading window'' so that I can get a matrix of optimal strategy which represents the optimal strategy for different grid point of factor $f$ and time point $t$.
+
+Then when computing PnL, I use interpolation to get the ``real optimal strategy'' on each time point and get the PnL process.
+
+What we have to notice here is when doing DPP and computing PnL, the riskless return is not zero so a little bit different from the formula on lecture notes.
+
+I save the PnL process in the file ``PnL\_in\_b.csv''. And I got the annualized mean: $39.051502045438575$, annualized variance: $34.885695320810775$, and the Sharpe Ratio is: $6.611713876937684$. We can see that althogh the mean is much higher than the previous one, the variance also increases. But luckily we get a little bit higher Sharpe Ratio.
+
+Similarly, if we want to repeat this question with any other assets, we just need to change the ``num\_asset''.
+
+\subsection*{(c)}
+Similar to previous question, I firstly use the ``Calibrition window'' to do estimation. Then use the ``Trading window'' to do DPP and compute the optimal strategy as a matrix.
+
+Then I do interpolation to compute the PnL with transaction cost. And I save the result in file ``PnL\_in\_c.scv''. I got the annualized mean: $0.28153354173492134$, annualized variance: $0.006363812582328052$, and the Sharpe Ratio is: $3.5291608544159025$.
+
+Notice that the Sharpe Ratio for this one is much lower than the previous due to the consideration of transaction costs.
+
+Similarly, if we want to repeat this question with any other assets, we just need to change the ``num\_asset''.
+
+\end{spacing}
+\end{document}
